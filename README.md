@@ -73,3 +73,12 @@ Nunit along with Moq has been used to implement unit tests for the application.
 ## Logging: 
 Serilog has been used to logging purposes and for the ease of verifying the assignment, a File Log has been implemented. 
 You can find the log file in the following place: '\bin\Debug\net8.0\Logs'
+
+
+## Points of Improvement
+- Implementation using Blob Trigger, hence a better architectural design 
+- Logging in AppInsights or SEQ for better visibility and traceability
+- Configuration Settings from Database. 
+- Handling more scenarios in Unit Testing 
+- Creating Templates for Email Notifications 
+- Better Handling of Edge Case Scenarios 
