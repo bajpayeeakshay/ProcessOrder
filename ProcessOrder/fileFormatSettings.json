@@ -1,0 +1,48 @@
+{
+  "fileFormatSettings": {
+    "Order": {
+      "FileTypeIdentifier": {
+        "Start": 0,
+        "Length": 3
+      },
+      "OrderNumber": {
+        "Start": 3,
+        "Length": 20
+      },
+      "OrderDate": {
+        "Start": 23,
+        "Length": 13
+      },
+      "BuyerEAN": {
+        "Start": 36,
+        "Length": 13
+      },
+      "SupplierEAN": {
+        "Start": 49,
+        "Length": 13
+      },
+      "Comment": {
+        "Start": 62,
+        "Length": 100
+      }
+    },
+    "OrderItem": {
+      "EAN": {
+        "Start": 0,
+        "Length": 13
+      },
+      "Description": {
+        "Start": 13,
+        "Length": 65
+      },
+      "Quantity": {
+        "Start": 78,
+        "Length": 10
+      },
+      "UnitPrice": {
+        "Start": 88,
+        "Length": 10
+      }
+    }
+  }
+}
